@@ -14,5 +14,7 @@ main
 - we see 4 sections (safari, ocean, etc), they're stored in a list because they are content that are alike 
 
 global styling
-- fonts
+- fonts/typogrpahy
 - set up variables
+
+Ideally, you want the 'styles.scss' to be mostly imports of partials

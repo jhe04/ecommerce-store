@@ -1,6 +1,7 @@
 @import "./partials/_setup.scss";
-@import "./partials/typography";
 @import "./partials/variables";
+@import "./partials/typography";
+@import "./partials/base";
 
 // COLOURS:
 // primary text (blue): #084b6d;
@@ -16,17 +17,3 @@
 // h3: 54px;
 // h4: 34px;
 // h5: 14px;
-
-// Skiplink CSS
-.skip-link {
-  position: absolute;
-  left: -1000px;
-  top: 5px;
-  z-index: 999;
-  background: white;
-  color: black;
-}
-
-.skip-link:focus {
-  left: 0;
-}
