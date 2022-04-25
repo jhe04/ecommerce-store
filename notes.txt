@@ -12,3 +12,7 @@ header
 
 main
 - we see 4 sections (safari, ocean, etc), they're stored in a list because they are content that are alike 
+
+global styling
+- fonts
+- set up variables
