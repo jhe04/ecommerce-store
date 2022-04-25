@@ -1,0 +1,3 @@
+#list all files and folders that shouldn't be pushed to github
+.vscode
+.DS_Store
