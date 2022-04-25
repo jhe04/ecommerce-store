@@ -7,3 +7,8 @@ Design overview
 header
 - break header into two containers
     - picture (left) + words (right)
+
+- build out repeated elements first, for example the footer
+
+main
+- we see 4 sections (safari, ocean, etc), they're stored in a list because they are content that are alike 
