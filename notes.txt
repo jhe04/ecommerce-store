@@ -1,0 +1,9 @@
+Design overview
+
+- top of page has a 'skiplink'
+- navigation bar
+    - title of website 'toybox' inside the nav bar
+
+header
+- break header into two containers
+    - picture (left) + words (right)
