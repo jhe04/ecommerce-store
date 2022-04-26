@@ -66,6 +66,7 @@ button {
 //------------- Styling anchors -------------------//
 
 a {
+  display: inline-block;
   &.button {
     color: $primary;
     background-color: transparent;
@@ -85,4 +86,12 @@ a {
       color: $solidWhite;
     }
   }
+}
+
+//------------- Styling images -------------------//
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
 }
