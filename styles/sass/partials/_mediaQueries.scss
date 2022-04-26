@@ -20,29 +20,72 @@
 }
 
 @media (max-width: 500px) {
+  // responsive navbar
+  .navBar {
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 15px;
+      .logo {
+        margin: 0;
+      }
+      :nth-child(1) {
+        align-self: flex-start;
+      }
+    }
+  }
+
+  // header section
+  header {
+    flex-direction: column;
+    .headerImgContainer {
+      width: 100%;
+    }
+    .headerContent {
+      width: 90%;
+      padding: 3rem 0;
+      .contentContainer {
+        width: 100%;
+      }
+    }
+  }
+
+  //categories section
+  .categoryGallery {
+    flex-direction: column;
+    .items {
+      width: 100%;
+      margin: 50px 0 25px;
+    }
+  }
+
+  //footer section
+
+  footer {
+    .footerFlexContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footerNav {
+      nav {
+        flex-direction: column;
+        align-items: center;
+        ul {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  //slideout nav
   .slideOutNav {
     width: 100%;
     .mainMenu {
       a {
         font-weight: bold;
         font-size: 1.2rem;
-      }
-    }
-  }
-
-  footer {
-    .footerFlexContainer {
-      margin-bottom: 60px;
-    }
-    .footerNav {
-      nav {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        ul {
-          margin-bottom: 24px;
-          width: 100%;
-        }
       }
     }
   }
