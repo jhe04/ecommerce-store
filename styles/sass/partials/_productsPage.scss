@@ -1,3 +1,4 @@
+// products section
 .productsMainContent {
   h2 {
     text-align: center;
@@ -35,6 +36,57 @@
       text-decoration: none;
       color: rgba($color: $primary, $alpha: 1);
       margin-left: 10px;
+    }
+  }
+}
+
+// customer guarantees section
+
+// creating the waves effect
+.guarantees {
+  background-color: $quinary;
+  position: relative;
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+
+  &::before {
+    content: "";
+    background-image: url("../assets/wave-3.svg");
+    background-color: $quinary;
+    background-position: top center;
+    background-size: 1500px 60px;
+    background-repeat: repeat;
+    position: absolute;
+    height: 3rem;
+    left: 0;
+    right: 0;
+    top: -60px;
+  }
+
+  // text + images section
+  ul {
+    display: flex;
+    li {
+      margin: 0 20px;
+      width: calc(25% - 40px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      img {
+        width: 50px;
+      }
     }
   }
 }
