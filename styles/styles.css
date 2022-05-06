@@ -720,6 +720,7 @@ header .headerContent .contentContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 50px;
 }
 .mapForm .wrapper .mapContainer {
   width: 50%;
@@ -893,6 +894,18 @@ footer .footerNav nav a:focus {
   footer .footerNav nav ul {
     width: auto;
   }
+
+  .mapContainer {
+    width: 45%;
+  }
+
+  .formContainer {
+    width: 55%;
+  }
+  .formContainer .contactForm {
+    width: calc(100% - 50px);
+    margin-left: 50px;
+  }
 }
 @media (max-width: 500px) {
   .navBar .wrapper {
@@ -971,5 +984,28 @@ footer .footerNav nav a:focus {
   .slideOutNav .mainMenu a {
     font-weight: bold;
     font-size: 1.2rem;
+  }
+
+  .mapForm .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mapForm .wrapper .mapContainer {
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  .formContainer {
+    width: 85%;
+  }
+  .formContainer .contactForm {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

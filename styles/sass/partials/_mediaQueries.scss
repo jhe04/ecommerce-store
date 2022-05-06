@@ -17,6 +17,20 @@
       }
     }
   }
+
+  // contact page
+
+  .mapContainer {
+    width: 45%;
+  }
+
+  .formContainer {
+    width: 55%;
+    .contactForm {
+      width: calc(100% - 50px);
+      margin-left: 50px;
+    }
+  }
 }
 
 @media (max-width: 500px) {
@@ -87,6 +101,24 @@
         font-weight: bold;
         font-size: 1.2rem;
       }
+    }
+  }
+
+  // contact page
+  .mapForm .wrapper {
+    flex-direction: column;
+    align-items: center;
+    .mapContainer {
+      width: 85%;
+      margin-bottom: 50px;
+    }
+  }
+  .formContainer {
+    width: 85%;
+    .contactForm {
+      margin-left: 0;
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
 }
